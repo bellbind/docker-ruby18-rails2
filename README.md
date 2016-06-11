@@ -1,5 +1,7 @@
 # docker image for ruby-1.8.7 with rails-2.3.18 on ubuntu xenial
 
+(docker hub: https://hub.docker.com/r/bellbind/docker-ruby18-rails2/ )
+
 see detail: https://github.com/bellbind/docker-ruby18-rails2/blob/master/Dockerfile
 
 Include gems:
