@@ -12,10 +12,11 @@ ENV PATH /root/.rbenv/shims:$PATH
 RUN rbenv install 1.8.7-p375
 RUN rbenv local 1.8.7-p375
 RUN rbenv rehash
-RUN gem install sqlite3 --no-ri --no-rdoc
 
 RUN gem install rake -v 0.8.7 --no-ri --no-rdoc
+RUN gem install rdoc -v 2.4.3 --no-ri --no-rdoc
 RUN gem install mongrel --no-ri --no-rdoc
+RUN gem install sqlite3 --no-ri --no-rdoc
 RUN gem install rails -v 2.3.18 --no-ri --no-rdoc
 RUN rbenv rehash
 
